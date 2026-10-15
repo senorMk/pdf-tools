@@ -1,0 +1,10 @@
+{
+  "name": "pdf-tools",
+  "private": true,
+  "workspaces": ["apps/desktop/frontend"],
+  "scripts": {
+    "check": "npm run check --workspace=@pdf-tools/desktop",
+    "build:frontend": "npm run build --workspace=@pdf-tools/desktop",
+    "preview": "npm run dev --workspace=@pdf-tools/desktop"
+  }
+}
