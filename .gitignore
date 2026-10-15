@@ -1,0 +1,9 @@
+.cache/
+node_modules/
+apps/desktop/frontend/dist/
+apps/desktop/build/bin/
+.DS_Store
+*.log
+.env
+.env.*
+!.env.example
